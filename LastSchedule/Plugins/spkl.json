@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    {
+      "profile": "default,debug",
+      "assemblypath": "bin\\Debug"
+    }
+  ],
+  "earlyboundtypes": [
+    {
+      "entities": "",
+      "actions": "",
+      "generateOptionsetEnums": "true",
+      "generateStateEnums": "true",
+      "generateGlobalOptionsets": false,
+      "filename": "EarlyBoundTypes.cs",
+      "oneTypePerFile": false,
+      "classNamespace": "FixRM.LastSchedule.Plugins.Entities",
+      "serviceContextName": "XrmSvc"
+    }
+  ]
+}
