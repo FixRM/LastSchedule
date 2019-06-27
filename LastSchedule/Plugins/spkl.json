@@ -2,12 +2,12 @@
   "plugins": [
     {
       "profile": "default,debug",
-      "assemblypath": "bin\\Debug"
+      "assemblypath": "bin\\Debug\\net462\\FixRM.LastSchedule.Plugins.dll"
     }
   ],
   "earlyboundtypes": [
     {
-      "entities": "",
+      "entities": "fixrm_recurringjob,fixrm_recurringjobschedule",
       "actions": "",
       "generateOptionsetEnums": "true",
       "generateStateEnums": "true",

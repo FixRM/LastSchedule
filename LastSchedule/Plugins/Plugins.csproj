@@ -7,19 +7,19 @@
     <Product>Plugins</Product>
     <Copyright>Copyright ©  2019</Copyright>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(BuildingForLiveUnitTesting)' != 'true'">
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>FixRM.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Cronos" Version="0.7.0" />
     <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.16.1" />
-    <PackageReference Include="System.DirectoryServices" Version="4.*" />
-    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="4.*" />
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.*" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.*" />
-    <PackageReference Include="System.Net.Http" Version="4.*" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="D365Extensions" Version="1.0.38" />
     <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.12" />
-    <PackageReference Include="Microsoft.CrmSdk.CoreTools" Version="9.0.0.7" />
-    <PackageReference Include="Microsoft.CrmSdk.Workflow" Version="9.0.2.12" />
+    <PackageReference Include="Quartz" Version="3.0.7" />
     <PackageReference Include="spkl" Version="1.0.226" />
   </ItemGroup>
   <ItemGroup>

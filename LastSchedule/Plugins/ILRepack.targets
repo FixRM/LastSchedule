@@ -5,8 +5,13 @@
     <ItemGroup>
       <InputAssemblies Include="$(OutputPath)\$(AssemblyName).dll" />
       <InputAssemblies Include="$(OutputPath)\D365Extensions.dll" />
+      <InputAssemblies Include="$(OutputPath)\Quartz.dll" />
     </ItemGroup>
-    <ILRepack Parallel="true" InputAssemblies="@(InputAssemblies)" LibraryPath="$(OutputPath)" KeyFile="$(AssemblyOriginatorKeyFile)" OutputFile="$(OutputPath)\$(AssemblyName).dll" />
+    <ILRepack Parallel="true"
+              InputAssemblies="@(InputAssemblies)"
+              LibraryPath="$(OutputPath)"
+              KeyFile="$(AssemblyOriginatorKeyFile)"
+              OutputFile="$(OutputPath)\$(AssemblyName).dll" />
   </Target>
 </Project>
 <!-- /ILRepack -->
