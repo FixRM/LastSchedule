@@ -1,31 +1,23 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FakeXrmEasy;
-using FixRM.LastSchedule.Plugins;
+﻿using FakeXrmEasy;
 using FixRM.LastSchedule.Plugins.Entities;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.Xrm.Sdk;
+using System;
 
-namespace Plugins.Tests
+namespace FixRM.LastSchedule.Plugins.Tests
 {
     [TestClass]
     public class GetNextRecurrenceHandlerTests
     {
         [TestMethod]
-        public void DoNotThrowTest()
+        public void GetNextRecurrenceTest()
         {
             /// Setup
-            DateTime now = DateTime.UtcNow;
-
-            // Cron does not support seconds by default
-            now = now.AddTicks(-(now.Ticks % TimeSpan.TicksPerMinute));
-
-            string pattern = "0 0/3 * 1/1 * ? *";
-
             fixrm_RecurringJobSchedule jobSchedule = new fixrm_RecurringJobSchedule()
             {
                 Id = Guid.NewGuid(),
                 // Every minute
-                fixrm_Pattern = pattern
+                fixrm_Pattern = "0 0/1 * 1/1 * ? *"
             };
 
             fixrm_RecurringJob job = new fixrm_RecurringJob()
@@ -45,7 +37,11 @@ namespace Plugins.Tests
             fakedContext.ExecutePluginWith<GetNextRecurrenceHandler>(executionContext);
 
             /// Assert
-            DateTime expectedNextRecurrence = now.AddMinutes(3);
+
+            // Cron doesn't support seconds by default
+            DateTime now = DateTime.UtcNow.Truncate(TimeSpan.TicksPerMinute);
+
+            DateTime expectedNextRecurrence = now.AddMinutes(1);
             DateTime? actualNextRecurrence = executionContext.OutputParameters[GetNextRecurrenceHandler.NextRecurrence] as DateTime?;
 
             Assert.AreEqual(expectedNextRecurrence, actualNextRecurrence);

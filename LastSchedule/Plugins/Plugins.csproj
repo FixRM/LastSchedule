@@ -13,7 +13,6 @@
     <DelaySign>false</DelaySign>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Cronos" Version="0.7.0" />
     <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.16.1" />
   </ItemGroup>
   <ItemGroup>

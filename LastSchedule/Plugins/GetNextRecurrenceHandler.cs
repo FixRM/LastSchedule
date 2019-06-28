@@ -1,12 +1,6 @@
 ﻿using Microsoft.Xrm.Sdk;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FixRM.LastSchedule.Plugins.Entities;
-//using Cronos;
 using Quartz;
+using System;
 
 namespace FixRM.LastSchedule.Plugins
 {
@@ -41,13 +35,11 @@ namespace FixRM.LastSchedule.Plugins
 
             // Get recurrence pattern
             string pattern = schedule.GetAttributeValue<string>("fixrm_pattern");
-            //CronExpression recurrence = CronExpression.Parse(pattern);
             CronExpression recurrence = new CronExpression(pattern);
 
             // Calculate next occurrence date and set output parameters
             // From last run?
-            DateTime now = DateTime.UtcNow.Truncate(TimeSpan.TicksPerSecond);
-            DateTimeOffset? nextRun = recurrence.GetTimeAfter(now);
+            DateTimeOffset? nextRun = recurrence.GetTimeAfter(DateTimeOffset.UtcNow);
             context.OutputParameters[NextRecurrence] = nextRun?.UtcDateTime;
         }
     }
