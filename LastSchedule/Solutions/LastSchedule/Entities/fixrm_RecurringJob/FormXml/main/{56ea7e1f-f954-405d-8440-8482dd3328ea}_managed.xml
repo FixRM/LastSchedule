@@ -44,6 +44,23 @@
                         </control>
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{8573355d-027d-34c4-4eb6-5515a1e267db}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fixrm_processid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fixrm_processid" disabled="false" uniqueid="{68edd072-5b03-c424-7206-daa77e9e9c3e}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{FB42862E-2A90-42A4-ABAC-592D848D4ECF}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="Query" showlabel="true" showbar="true" locklevel="0" id="{ac9c28a9-a903-4778-a5d2-0c1646dad4e4}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
