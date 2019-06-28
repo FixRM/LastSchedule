@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{da136159-d1fe-4f50-82a8-227bec6a3fee}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b21bce24-2b0e-4e43-83b7-cf22a6cf81c7}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{eb557679-5c33-4f83-a47f-d2cb8b2629f4}" name="{eb557679-5c33-4f83-a47f-d2cb8b2629f4}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a1b4dcf7-1a44-4218-9050-076e6f061a48}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fixrm_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fixrm_name" uniqueid="{e236482c-cd0d-bda5-9a45-18ec995ac08e}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{661b2584-77a1-e194-acd2-061bd3a40923}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fixrm_scheduletype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="fixrm_scheduletype" disabled="false" uniqueid="{862ca252-0550-28db-2661-a02066355908}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b65274b5-6461-143b-e0eb-21b2e4a0e73e}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fixrm_pattern" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fixrm_pattern" disabled="false" uniqueid="{9b3844c9-abbc-6464-34bb-303446492e3b}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

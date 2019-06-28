@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.5626" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>LastSchedule</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="LastSchedule" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>fixrm</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="FixRM" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress>grunin.artem@outlook.com</EMailAddress>
+      <SupportingWebsiteUrl>https://github.com/FixRM</SupportingWebsiteUrl>
+      <CustomizationPrefix>fixrm</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>37828</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="fixrm_recurringjob" behavior="0" />
+      <RootComponent type="1" schemaName="fixrm_recurringjobschedule" behavior="0" />
+      <RootComponent type="9" schemaName="fixrm_recurrencepatterntype" behavior="0" />
+      <RootComponent type="9" schemaName="fixrm_sheduletype" behavior="0" />
+      <RootComponent type="29" id="{71ff5bcb-9d96-4479-821a-48bb7f64a2cd}" behavior="0" />
+      <RootComponent type="29" id="{7cdb8011-c88e-e911-a81b-000d3a1f0e62}" behavior="0" />
+      <RootComponent type="29" id="{9de3f89a-9a0d-45e8-a0e6-34176115262c}" behavior="0" />
+      <RootComponent type="29" id="{d26e6b28-dae1-4a0a-bf2d-9981bec193e8}" behavior="0" />
+      <RootComponent type="29" id="{f314ee2f-e768-4871-a459-db43ae259392}" behavior="0" />
+      <RootComponent type="60" id="{56ea7e1f-f954-405d-8440-8482dd3328ea}" behavior="0" />
+      <RootComponent type="60" id="{da136159-d1fe-4f50-82a8-227bec6a3fee}" behavior="0" />
+      <RootComponent type="62" schemaName="fixrm_FixRMLastSchedule" behavior="0" />
+      <RootComponent type="80" schemaName="fixrm_FixRMLastSchedule" behavior="0" />
+      <RootComponent type="91" id="{8d7323b5-be8e-e911-a81b-000d3a1f0599}" schemaName="FixRM.LastSchedule.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03828b83a6108d24" behavior="0" />
+      <RootComponent type="92" id="{abb31f69-c18e-e911-a81b-000d3a1f0599}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="1" type="80" schemaName="fixrm_FixRMLastSchedule" displayName="FixRM Last Schedule" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

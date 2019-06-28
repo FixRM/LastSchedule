@@ -1,0 +1,19 @@
+{
+  "solutions": [
+    {
+      "profile": "default,debug",
+      "solution_uniquename": "LastSchedule",
+      "packagepath": "LastSchedule",
+      "solutionpath": "LastSchedule_{0}_{1}_{2}_{3}.zip",
+      "packagetype": "both_unmanaged_import",
+      "increment_on_import": false,
+      "map": [
+        {
+          "map": "file",
+          "from": "PluginAssemblies\\**\\FixRMLastSchedulePlugins.dll",
+          "to": "..\\..\\Plugins\\bin\\**\\**\\FixRM.LastSchedule.Plugins.dll"
+        }
+      ]
+    }
+  ]
+}

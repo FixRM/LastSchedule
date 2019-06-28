@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="FixRM.LastSchedule.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03828b83a6108d24" PluginAssemblyId="8d7323b5-be8e-e911-a81b-000d3a1f0599" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/FixRMLastSchedulePlugins-8D7323B5-BE8E-E911-A81B-000D3A1F0599/FixRMLastSchedulePlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="FixRM.LastSchedule.Plugins.GetNextRecurrenceHandler, FixRM.LastSchedule.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03828b83a6108d24" PluginTypeId="8f7323b5-be8e-e911-a81b-000d3a1f0599" Name="FixRM.LastSchedule.Plugins.GetNextRecurrenceHandler">
+      <FriendlyName>FixRM.LastSchedule.Plugins.GetNextRecurrenceHandler</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

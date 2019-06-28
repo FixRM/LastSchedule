@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{785e3cfd-2abd-432d-a73b-637d2d20c227}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fixrm_name" select="1" icon="1" preview="1">
+        <row name="result" id="fixrm_recurringjobscheduleid">
+          <cell name="fixrm_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="fixrm_recurringjobschedule">
+          <attribute name="fixrm_recurringjobscheduleid" />
+          <attribute name="fixrm_name" />
+          <attribute name="createdon" />
+          <order attribute="fixrm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Recurring Job Schedules" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
