@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="fixrm_recurringjobschedule_recurringjob" />
+  <EntityRelationship Name="lk_fixrm_recurringjob_createdby" />
+  <EntityRelationship Name="lk_fixrm_recurringjob_modifiedby" />
+  <EntityRelationship Name="lk_fixrm_recurringjobschedule_createdby" />
+  <EntityRelationship Name="lk_fixrm_recurringjobschedule_modifiedby" />
+  <EntityRelationship Name="organization_fixrm_recurringjob" />
+  <EntityRelationship Name="organization_fixrm_recurringjobschedule" />
+</EntityRelationships>

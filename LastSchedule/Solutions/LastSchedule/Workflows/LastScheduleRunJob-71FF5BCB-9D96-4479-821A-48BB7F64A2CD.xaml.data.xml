@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{71ff5bcb-9d96-4479-821a-48bb7f64a2cd}" Name="LastSchedule: RunJob">
+  <XamlFileName>/Workflows/LastScheduleRunJob-71FF5BCB-9D96-4479-821A-48BB7F64A2CD.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{1495c2af-1c7e-e911-a81a-000d3a1f0002}</SdkMessageId>
+  <UniqueName>RunJob</UniqueName>
+  <IsTransacted>0</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <FormId>{00000000-0000-0000-0000-000000000000}</FormId>
+  <PrimaryEntity>fixrm_RecurringJob</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="LastSchedule: RunJob" />
+  </LocalizedNames>
+</Workflow>

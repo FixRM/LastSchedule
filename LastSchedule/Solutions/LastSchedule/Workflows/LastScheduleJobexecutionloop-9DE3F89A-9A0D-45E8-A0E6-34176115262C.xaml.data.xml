@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{9de3f89a-9a0d-45e8-a0e6-34176115262c}" Name="LastSchedule: Job execution loop">
+  <XamlFileName>/Workflows/LastScheduleJobexecutionloop-9DE3F89A-9A0D-45E8-A0E6-34176115262C.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>1</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>statuscode</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>fixrm_RecurringJob</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="LastSchedule: Job execution loop" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{4e05b8a7-85a6-48a4-8209-c8dde363125d}" />
+    <steplabels id="{9e6e7ec5-7c07-4f2b-a2ad-690054e3a9ca}" />
+  </labels>
+</Workflow>
