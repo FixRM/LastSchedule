@@ -89,16 +89,13 @@
       <RootComponent type="29" id="{f314ee2f-e768-4871-a459-db43ae259392}" behavior="0" />
       <RootComponent type="60" id="{56ea7e1f-f954-405d-8440-8482dd3328ea}" behavior="0" />
       <RootComponent type="60" id="{da136159-d1fe-4f50-82a8-227bec6a3fee}" behavior="0" />
+      <RootComponent type="61" schemaName="fixrm_/Icons/RecurringJob.svg" behavior="0" />
+      <RootComponent type="61" schemaName="fixrm_/Icons/RecurringJobSchedule.svg" behavior="0" />
       <RootComponent type="62" schemaName="fixrm_FixRMLastSchedule" behavior="0" />
       <RootComponent type="80" schemaName="fixrm_FixRMLastSchedule" behavior="0" />
       <RootComponent type="91" id="{8d7323b5-be8e-e911-a81b-000d3a1f0599}" schemaName="FixRM.LastSchedule.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03828b83a6108d24" behavior="0" />
       <RootComponent type="92" id="{abb31f69-c18e-e911-a81b-000d3a1f0599}" behavior="0" />
     </RootComponents>
-    <MissingDependencies>
-      <MissingDependency>
-        <Required key="0" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="1" type="80" schemaName="fixrm_FixRMLastSchedule" displayName="FixRM Last Schedule" />
-      </MissingDependency>
-    </MissingDependencies>
+    <MissingDependencies />
   </SolutionManifest>
 </ImportExportXml>
