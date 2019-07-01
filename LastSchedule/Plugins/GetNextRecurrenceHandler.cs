@@ -15,8 +15,13 @@ namespace FixRM.LastSchedule.Plugins
         isolationModel: IsolationModeEnum.Sandbox)]
     public class GetNextRecurrenceHandler : IPlugin
     {
+        #region Input parameters
         public static readonly string Target = "Target";
+        #endregion
+
+        #region Output parameters
         public static readonly string NextRecurrence = "NextRecurrence";
+        #endregion
 
         public void Execute(IServiceProvider serviceProvider)
         {
