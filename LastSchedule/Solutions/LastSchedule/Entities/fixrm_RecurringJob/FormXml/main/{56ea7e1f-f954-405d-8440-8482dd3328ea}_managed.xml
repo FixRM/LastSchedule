@@ -54,9 +54,10 @@
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
                             <DisableQuickFind>false</DisableQuickFind>
-                            <DisableViewPicker>false</DisableViewPicker>
-                            <DefaultViewId>{FB42862E-2A90-42A4-ABAC-592D848D4ECF}</DefaultViewId>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{FE0C1581-D49B-E911-A81E-000D3A1F0E62}</DefaultViewId>
                             <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{FE0C1581-D49B-E911-A81E-000D3A1F0E62},{FB42862E-2A90-42A4-ABAC-592D848D4ECF}</AvailableViewIds>
                           </parameters>
                         </control>
                       </cell>
@@ -68,14 +69,17 @@
                     <label description="Query" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row height="auto">
-                      <cell id="{3a0593c8-2891-29d5-218b-476e26703d38}" showlabel="false" locklevel="0" colspan="1" auto="true">
+                    <row>
+                      <cell id="{3a0593c8-2891-29d5-218b-476e26703d38}" showlabel="false" locklevel="0" colspan="1" auto="true" rowspan="4">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                         <control id="fixrm_query" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="fixrm_query" disabled="false" uniqueid="{ce207180-01de-b9b0-55b2-a692db268c6b}" />
                       </cell>
                     </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
                   </rows>
                 </section>
                 <section name="Status" showlabel="true" showbar="true" locklevel="0" id="{a09cba81-50c8-eb4d-a78d-059a62a4ea3e}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" visible="false">
