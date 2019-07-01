@@ -173,6 +173,42 @@ namespace FixRM.LastSchedule.Plugins.Entities
 		}
 		
 		/// <summary>
+		/// Unique identifier for Process associated with Recurring Job.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("fixrm_processid")]
+		public Microsoft.Xrm.Sdk.EntityReference fixrm_ProcessId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("fixrm_processid");
+			}
+			set
+			{
+				this.OnPropertyChanging("fixrm_ProcessId");
+				this.SetAttributeValue("fixrm_processid", value);
+				this.OnPropertyChanged("fixrm_ProcessId");
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("fixrm_query")]
+		public string fixrm_Query
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("fixrm_query");
+			}
+			set
+			{
+				this.OnPropertyChanging("fixrm_Query");
+				this.SetAttributeValue("fixrm_query", value);
+				this.OnPropertyChanged("fixrm_Query");
+			}
+		}
+		
+		/// <summary>
 		/// Unique identifier for entity instances
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("fixrm_recurringjobid")]
@@ -621,24 +657,6 @@ namespace FixRM.LastSchedule.Plugins.Entities
 		}
 		
 		/// <summary>
-		/// 
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("fixrm_recurrencepattern")]
-		public Microsoft.Xrm.Sdk.OptionSetValue fixrm_RecurrencePattern
-		{
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("fixrm_recurrencepattern");
-			}
-			set
-			{
-				this.OnPropertyChanging("fixrm_RecurrencePattern");
-				this.SetAttributeValue("fixrm_recurrencepattern", value);
-				this.OnPropertyChanged("fixrm_RecurrencePattern");
-			}
-		}
-		
-		/// <summary>
 		/// Unique identifier for entity instances
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("fixrm_recurringjobscheduleid")]
@@ -674,6 +692,24 @@ namespace FixRM.LastSchedule.Plugins.Entities
 			set
 			{
 				this.fixrm_RecurringJobScheduleId = value;
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("fixrm_scheduletype")]
+		public Microsoft.Xrm.Sdk.OptionSetValue fixrm_ScheduleType
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("fixrm_scheduletype");
+			}
+			set
+			{
+				this.OnPropertyChanging("fixrm_ScheduleType");
+				this.SetAttributeValue("fixrm_scheduletype", value);
+				this.OnPropertyChanged("fixrm_ScheduleType");
 			}
 		}
 		

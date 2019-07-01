@@ -16,7 +16,7 @@
     <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.16.1" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="D365Extensions" Version="1.0.38" />
+    <PackageReference Include="D365Extensions" Version="1.0.42" />
     <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.12" />
     <PackageReference Include="Quartz" Version="3.0.7" />
     <PackageReference Include="spkl" Version="1.0.226" />
