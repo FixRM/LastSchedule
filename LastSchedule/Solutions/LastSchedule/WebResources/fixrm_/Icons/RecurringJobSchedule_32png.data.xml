@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{0ad4b075-fb9b-e911-a81e-000d3a1f0e62}</WebResourceId>
+  <Name>fixrm_/Icons/RecurringJobSchedule_32png</Name>
+  <DisplayName>fixrm_/Icons/RecurringJobSchedule_32png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/fixrm_IconsRecurringJobSchedule_32png0AD4B075-FB9B-E911-A81E-000D3A1F0E62</FileName>
+</WebResource>

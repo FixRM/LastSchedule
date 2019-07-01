@@ -760,8 +760,8 @@
       <CanCreateViews>1</CanCreateViews>
       <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
       <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
-      <IconMediumName>fixrm_/Icons/RecurringJobSchedule.svg</IconMediumName>
-      <IconSmallName>fixrm_/Icons/RecurringJobSchedule.svg</IconSmallName>
+      <IconMediumName>fixrm_/Icons/RecurringJobSchedule_32png</IconMediumName>
+      <IconSmallName>fixrm_/Icons/RecurringJobSchedule_16.png</IconSmallName>
       <IconVectorName>fixrm_/Icons/RecurringJobSchedule.svg</IconVectorName>
       <EnforceStateTransitions>0</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>

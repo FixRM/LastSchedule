@@ -798,8 +798,8 @@
       <CanCreateViews>1</CanCreateViews>
       <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
       <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
-      <IconMediumName>fixrm_/Icons/RecurringJob.svg</IconMediumName>
-      <IconSmallName>fixrm_/Icons/RecurringJob.svg</IconSmallName>
+      <IconMediumName>fixrm_/Icons/RecurringJob_32.png</IconMediumName>
+      <IconSmallName>fixrm_/Icons/RecurringJob_16.png</IconSmallName>
       <IconVectorName>fixrm_/Icons/RecurringJob.svg</IconVectorName>
       <EnforceStateTransitions>1</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
