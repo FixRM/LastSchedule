@@ -8,5 +8,8 @@
     <PluginType AssemblyQualifiedName="FixRM.LastSchedule.Plugins.GetNextRecurrenceHandler, FixRM.LastSchedule.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03828b83a6108d24" PluginTypeId="8f7323b5-be8e-e911-a81b-000d3a1f0599" Name="FixRM.LastSchedule.Plugins.GetNextRecurrenceHandler">
       <FriendlyName>FixRM.LastSchedule.Plugins.GetNextRecurrenceHandler</FriendlyName>
     </PluginType>
+    <PluginType AssemblyQualifiedName="FixRM.LastSchedule.Plugins.RunJobHandler, FixRM.LastSchedule.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03828b83a6108d24" PluginTypeId="ef0b5e7a-cf9b-e911-a81e-000d3a1f0599" Name="FixRM.LastSchedule.Plugins.RunJobHandler">
+      <FriendlyName>FixRM.LastSchedule.Plugins.RunJobHandler</FriendlyName>
+    </PluginType>
   </PluginTypes>
 </PluginAssembly>
