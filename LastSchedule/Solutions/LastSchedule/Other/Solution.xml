@@ -89,6 +89,7 @@
       <RootComponent type="29" id="{f314ee2f-e768-4871-a459-db43ae259392}" behavior="0" />
       <RootComponent type="60" id="{56ea7e1f-f954-405d-8440-8482dd3328ea}" behavior="0" />
       <RootComponent type="60" id="{da136159-d1fe-4f50-82a8-227bec6a3fee}" behavior="0" />
+      <RootComponent type="61" schemaName="fixrm_/Icons/FixRmLogo_64.png" behavior="0" />
       <RootComponent type="61" schemaName="fixrm_/Icons/RecurringJob.svg" behavior="0" />
       <RootComponent type="61" schemaName="fixrm_/Icons/RecurringJobSchedule.svg" behavior="0" />
       <RootComponent type="61" schemaName="fixrm_/Icons/RecurringJobSchedule_16.png" behavior="0" />
