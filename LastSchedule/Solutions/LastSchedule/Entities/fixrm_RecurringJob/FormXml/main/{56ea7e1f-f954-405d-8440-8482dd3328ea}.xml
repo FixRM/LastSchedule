@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{82331a28-4933-41d1-b56d-25021e87e095}" IsUserDefined="1">
+        <tab verticallayout="true" id="{82331a28-4933-41d1-b56d-25021e87e095}" IsUserDefined="1" expanded="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
@@ -106,15 +106,65 @@
                         <labels>
                           <label description="Last Run" languagecode="1033" />
                         </labels>
-                        <control id="fixrm_lastrun" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fixrm_lastrun" disabled="false" />
+                        <control id="fixrm_lastrun" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fixrm_lastrun" disabled="true" uniqueid="{ce7126e6-dad8-a4cc-0963-1d7917525bc3}" />
                       </cell>
                       <cell id="{a7457bb2-5140-29d1-4d98-ccc33722988c}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Next Run" languagecode="1033" />
                         </labels>
-                        <control id="fixrm_nextrun" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fixrm_nextrun" disabled="false" />
+                        <control id="fixrm_nextrun" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fixrm_nextrun" disabled="true" uniqueid="{99e8b28e-6d07-1a6b-c860-748512d0bd16}" />
                       </cell>
                     </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{5444e7ec-1c72-e422-45ed-ecab707501d7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Journal" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{23e1ae1c-86c6-d2c7-1cdb-c3d6d9651212}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{05cdb679-8504-decd-015c-23789a07b1c2}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="System Jobs (Regarding)" languagecode="1033" />
+                        </labels>
+                        <control id="SJ" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{042ed9ee-c7b4-0e24-e9ed-d1b7ecdc276e}">
+                          <parameters>
+                            <ViewId>{396C49C7-F7F5-4612-B8E6-846A4D813293}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>fixrm_recurringjob_AsyncOperations</RelationshipName>
+                            <TargetEntityType>asyncoperation</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds />
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                   </rows>
                 </section>
               </sections>
@@ -129,13 +179,13 @@
               <labels>
                 <label description="Last Run" languagecode="1033" />
               </labels>
-              <control id="header_fixrm_lastrun" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fixrm_lastrun" disabled="false" />
+              <control id="header_fixrm_lastrun" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fixrm_lastrun" disabled="true" uniqueid="{2ea94504-0984-6921-d16d-87719ed88811}" />
             </cell>
             <cell id="{aa25d16b-e0b0-0834-93b8-4c40196995c0}" showlabel="true" locklevel="0">
               <labels>
                 <label description="Next Run" languagecode="1033" />
               </labels>
-              <control id="header_fixrm_nextrun" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fixrm_nextrun" disabled="false" />
+              <control id="header_fixrm_nextrun" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fixrm_nextrun" disabled="true" uniqueid="{b58921a9-4cd6-d921-35ae-0a8d111e22b0}" />
             </cell>
             <cell id="{3acb0a64-b9ee-84b6-80bd-1d7740723c91}" showlabel="true" locklevel="0">
               <labels>
