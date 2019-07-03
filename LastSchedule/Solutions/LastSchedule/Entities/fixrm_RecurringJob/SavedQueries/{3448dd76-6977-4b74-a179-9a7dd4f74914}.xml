@@ -11,7 +11,11 @@
       <grid name="resultset" jump="fixrm_name" select="1" icon="1" preview="1">
         <row name="result" id="fixrm_recurringjobid">
           <cell name="fixrm_name" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="fixrm_lastrun" width="100" />
+          <cell name="fixrm_nextrun" width="100" />
+          <cell name="fixrm_processid" width="100" />
+          <cell name="fixrm_scheduleid" width="100" />
+          <cell name="statuscode" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -19,10 +23,14 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="fixrm_recurringjob">
-          <attribute name="fixrm_recurringjobid" />
           <attribute name="fixrm_name" />
-          <attribute name="createdon" />
           <order attribute="fixrm_name" descending="false" />
+          <attribute name="statuscode" />
+          <attribute name="fixrm_scheduleid" />
+          <attribute name="fixrm_processid" />
+          <attribute name="fixrm_nextrun" />
+          <attribute name="fixrm_lastrun" />
+          <attribute name="fixrm_recurringjobid" />
         </entity>
       </fetch>
     </fetchxml>
