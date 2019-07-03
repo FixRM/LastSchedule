@@ -28,14 +28,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{661b2584-77a1-e194-acd2-061bd3a40923}" showlabel="true" locklevel="0" colspan="2">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                        <control id="fixrm_scheduletype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="fixrm_scheduletype" disabled="false" uniqueid="{862ca252-0550-28db-2661-a02066355908}" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{b65274b5-6461-143b-e0eb-21b2e4a0e73e}" showlabel="true" locklevel="0" colspan="2">
                         <labels>
                           <label description="" languagecode="1033" />

@@ -81,10 +81,7 @@
       <RootComponent type="1" schemaName="fixrm_recurringjob" behavior="0" />
       <RootComponent type="1" schemaName="fixrm_recurringjobschedule" behavior="0" />
       <RootComponent type="1" schemaName="workflow" behavior="1" />
-      <RootComponent type="9" schemaName="fixrm_recurrencepatterntype" behavior="0" />
-      <RootComponent type="9" schemaName="fixrm_sheduletype" behavior="0" />
       <RootComponent type="29" id="{71ff5bcb-9d96-4479-821a-48bb7f64a2cd}" behavior="0" />
-      <RootComponent type="29" id="{7cdb8011-c88e-e911-a81b-000d3a1f0e62}" behavior="0" />
       <RootComponent type="29" id="{9de3f89a-9a0d-45e8-a0e6-34176115262c}" behavior="0" />
       <RootComponent type="29" id="{f314ee2f-e768-4871-a459-db43ae259392}" behavior="0" />
       <RootComponent type="60" id="{56ea7e1f-f954-405d-8440-8482dd3328ea}" behavior="0" />
