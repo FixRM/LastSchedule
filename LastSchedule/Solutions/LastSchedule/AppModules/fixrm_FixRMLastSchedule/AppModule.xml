@@ -13,6 +13,7 @@
     <AppModuleComponent type="1" schemaName="fixrm_recurringjobschedule" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
+    <Role id="{11aac6a0-809d-e911-a81e-000d3a1f0e62}" />
     <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
     <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
   </AppModuleRoleMaps>
