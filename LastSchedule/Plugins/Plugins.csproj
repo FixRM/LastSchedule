@@ -23,7 +23,7 @@
     <PackageReference Include="D365Extensions" Version="1.0.42" />
     <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.12" />
     <PackageReference Include="Quartz" Version="3.0.7" />
-    <PackageReference Include="spkl" Version="1.0.226" />
+    <PackageReference Include="spkl" Version="1.0.234-beta" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationFramework" />
