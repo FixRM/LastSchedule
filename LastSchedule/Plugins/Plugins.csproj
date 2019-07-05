@@ -7,6 +7,9 @@
     <Product>Plugins</Product>
     <Copyright>Copyright ©  2019</Copyright>
   </PropertyGroup>
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(BuildingForLiveUnitTesting)' != 'true'">
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>FixRM.snk</AssemblyOriginatorKeyFile>
