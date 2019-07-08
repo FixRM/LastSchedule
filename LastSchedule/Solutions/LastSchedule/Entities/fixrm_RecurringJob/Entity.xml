@@ -326,8 +326,9 @@
           <Type>lookup</Type>
           <Name>fixrm_scheduleid</Name>
           <LogicalName>fixrm_scheduleid</LogicalName>
-          <RequiredLevel>recommended</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
