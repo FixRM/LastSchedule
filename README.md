@@ -1,4 +1,4 @@
-[![Build status](https://fixrm.visualstudio.com/fixrm/_apis/build/status/LastSchedule%20Build)](https://fixrm.visualstudio.com/fixrm/_build/latest?definitionId=10)
+[![Build status](https://dev.azure.com/fixrm/fixrm/_apis/build/status/LastSchedule%20Build)](https://dev.azure.com/fixrm/fixrm/_build/latest?definitionId=10)
 # Last Schedule
 Simple but powerful task scheduler for D365 CE
 
