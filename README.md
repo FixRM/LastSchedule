@@ -2,6 +2,10 @@
 # Last Schedule
 Simple but powerful task scheduler for D365 CE
 
+>**This solution (and any other solution using requiring workflows) has a huge limitation: you can't execute more than 15 jobs per 24 hours (approx. more than once per every 1,5 hour)</br>**
+>
+>**If you try to execute more often, platform will consider your job as infinite loop and will terminate job after 15 executions**
+
 Advantages:
 * Recurrence jobs can share common schedules
 * Uses Cron scheduling syntax
