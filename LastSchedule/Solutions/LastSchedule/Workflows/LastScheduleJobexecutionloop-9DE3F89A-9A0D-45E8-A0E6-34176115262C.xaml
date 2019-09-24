@@ -64,7 +64,7 @@
                     <Sequence DisplayName="StopWorkflowStep13: False alarm">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep13_1" />
-                        <Variable x:TypeArguments="x:String" Default="7e376ab4-9423-44ad-8d21-91a221ef367a" Name="stepLabelLabelId" />
+                        <Variable x:TypeArguments="x:String" Default="43afcdd1-7d52-4ab1-a0ea-93ef95ecb73f" Name="stepLabelLabelId" />
                         <Variable x:TypeArguments="x:String" Name="stepLabelDescription">
                           <Variable.Default>
                             <Literal x:TypeArguments="x:String" Value="" />
