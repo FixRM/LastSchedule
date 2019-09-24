@@ -182,7 +182,7 @@
             <displayname description="Pattern" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Recurrence pattern string in iCalendar format" languagecode="1033" />
+            <Description description="Recurrence pattern string in Cron format" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="fixrm_RecurringJobScheduleId">
