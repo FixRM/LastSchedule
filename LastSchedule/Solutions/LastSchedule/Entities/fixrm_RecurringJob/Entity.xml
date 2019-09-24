@@ -227,6 +227,7 @@
           <LogicalName>fixrm_processid</LogicalName>
           <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -809,18 +810,10 @@
       <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
     </entity>
   </EntityInfo>
   <FormXml />
   <SavedQueries />
   <RibbonDiffXml />
-  <CustomControlDefaultConfigs>
-    <CustomControlDefaultConfig>
-      <CustomControlDefaultConfigId>{31a43186-c5d2-454f-93e8-cea5035bafd7}</CustomControlDefaultConfigId>
-      <ControlDescriptionXML>
-        <controlDescriptions />
-      </ControlDescriptionXML>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
-    </CustomControlDefaultConfig>
-  </CustomControlDefaultConfigs>
 </Entity>
